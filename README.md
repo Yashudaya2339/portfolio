@@ -1,16 +1,46 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio built with React and Tailwind CSS.  
+It includes smooth navigation, a flexible mobile-friendly menu, well-structured sections, and a clean UI.  
+This site highlights your experience, skills, story, and contact details in a visually appealing format.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fully responsive design with smooth scrolling to sections
+- Modern navigation bar with mobile menu (hamburger + close icon)
+- Hero section with intro, profile image, and call-to-action button
+- Detailed Experience section with timeline-style cards
+- Skills displayed in structured categories
+- Personal “My Story” section with clean typography
+- Contact section with icons and accessible layout
+- Footer with navigation + social media icons (Instagram, LinkedIn, GitHub)
+- Built using Tailwind CSS for fast styling and responsive layouts
+- Uses Lucide Icons for crisp, scalable icons
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **Tailwind CSS**
+- **Vite** (recommended for dev environment)
+- **Lucide Icons**
 
-## Expanding the ESLint configuration
+## Code Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+My portfolio is split into clean, scroll-based sections:
+
+- `Home`  
+- `Experience`  
+- `Skills`  
+- `About / My Story`  
+- `Contact`  
+- `Footer with social icons and links`
+
+Each section uses Tailwind utilities to stay fully responsive, lightweight, and modern.
+
+## Navigation
+
+The project includes:
+
+- Desktop navigation with smooth scroll  
+- Mobile navigation using `useState` to toggle menu  
+- Click-to-scroll buttons mapped to section IDs  
