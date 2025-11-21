@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Instagram, ExternalLink, Menu, X,ArrowUpRight  } from 'lucide-react';
+import profileImage from './assets/profile.jpg';
 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -180,9 +181,9 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="w-96 h-96 rounded-full overflow-hidden border-4 border-[#6E06F2]/20 shadow-2xl">
+            <div className="w-96 h-96 rounded-full overflow-hidden border-4 border-[#6E06F2]/10 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" 
+                src={profileImage}  
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
