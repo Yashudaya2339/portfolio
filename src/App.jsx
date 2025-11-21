@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Instagram, ExternalLink, Menu, X,ArrowUpRight  } from 'lucide-react';
-import profileImage from './assets/profile.jpg';
+import profileImage from './assets/profile-pic.jpg';
 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
